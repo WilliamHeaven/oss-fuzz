@@ -16,5 +16,5 @@
 ################################################################################
 cd $SRC/libgd
 git checkout fuzz-test
-cd cd $SRC/
+cd $SRC/
 $SRC/libgd/tests/fuzz/build-fuzzer.sh
