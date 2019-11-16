@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 ################################################################################
-$SRC/libgd/tests/fuzz/build_fuzzer.sh
+$SRC/libgd/tests/fuzz/build-fuzzer.sh
