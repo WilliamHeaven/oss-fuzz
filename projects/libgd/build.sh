@@ -14,5 +14,7 @@
 # limitations under the License.
 #
 ################################################################################
-ls -al $SRC
+cd $SRC/libgd
+git checkout fuzz-test
+cd cd $SRC/
 $SRC/libgd/tests/fuzz/build-fuzzer.sh
