@@ -21,4 +21,3 @@ RUN apt-get update && \
 RUN git clone --depth 1 https://github.com/jiangjufa/libgd.git
 ADD http://lcamtuf.coredump.cx/afl/demo/afl_testcases.tgz $SRC/afl_testcases.tgz
 WORKDIR libgd
-COPY tests/fuzz/build-fuzzer.sh $SRC/
