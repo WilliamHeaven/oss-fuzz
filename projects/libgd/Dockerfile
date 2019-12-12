@@ -18,6 +18,6 @@ FROM gcr.io/oss-fuzz-base/base-builder
 MAINTAINER ossfuzz@tds.xyz
 RUN apt-get update && \
     apt-get install -y make autoconf automake libtool pkg-config libz-dev curl
-RUN git clone --depth 1 https://github.com/jiangjufa/libgd
+RUN git clone --depth 1 https://github.com/WilliamHeaven/libgd
 WORKDIR libgd
 COPY build.sh  $SRC/
